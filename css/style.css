@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+        background: lavender;
+}
+
+
+.navbar_custom{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 2;
+    width: 100%;
+}
+
+.nav-link,.navbar-brand{
+    color: rgba(255, 255, 255, 0.72)!important;
+    transition: 0.3s;
+}
+
+.nav-link:hover,#logo:hover{
+    color:rgba(30, 140, 53, 0.93)!important;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+
+
+#arrow_cont{
+    display: none;
+    height: 60px;
+    width: 60px;
+    background: rgba(28, 28, 29, 0.74);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 3;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+
+.arrow{
+    margin: 10px;
+    height:40px;
+    width: 40px;
+}
+
+
+#arrow_cont:hover{
+     background: rgba(30, 140, 53, 0.93);
+}
+
+.nav-item{
+    margin:0 15px;
+}
+
+.number h4{
+    margin-top: 6px;
+    color: rgba(255, 255, 255, 0.72)!important;
+    float: left;
+}
+
+.number h6{
+    margin-top: 12px;
+    color: rgba(255, 255, 255, 0.72)!important;
+    float: left;
+}
+
+.slider img{
+    height: 800px;
+    /*overflow: hidden;*/
+}
+
+
+.caption_custom h1{
+    font-size: 55px!important;
+    top: 50%!important;
+    color: rgba(255, 255, 255, 0.72)!important;
+}
+
+
+.info{
+    z-index: 1;
+    padding: 5%;
+    border-radius: 15px;
+    transform:rotate(10deg);
+    background: rgba(0, 0, 0, 0.82);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    top: 25%;
+    left: 10%;
+    transition: .4s ease-in-out;
+}
+
+
+.info:hover{
+    background: rgba(30, 140, 53, 0.93);
+    cursor: pointer;
+    transform: rotate(0);
+    box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.54);
+}
+
+
+.info h1{
+    color: rgba(255, 255, 255, 0.72)!important;
+    font-size: 35px;
+    margin-bottom: 5%;
+}
+
+
+.info h2{
+     color: rgba(255, 255, 255, 0.72)!important;
+}
+
+.title{
+    background: lavender;
+}
+
+.title h2,.title p{
+    text-align: center;
+    margin: 4%;
+}
+
+.title h2{
+    color: rgba(30, 140, 53, 0.93);
+}
+
+
+.item_pic{
+
+margin: 25px 25px;
+
+height: 100px;
+}
+
+
+.items{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.items h4{
+    margin-top: 10%;
+}
+
+.item{
+    
+box-shadow: 0px 0px 3px 2px grey;
+    
+background: rgba(0, 0, 0, 0.72);
+    
+border-radius: 50%;
+    
+width: 150px;
+    
+height: 150px;
+    
+transition:0.5s;
+}
+
+
+.item:hover{
+    background: rgba(30, 140, 53, 0.93);
+    cursor: pointer;
+    transform: rotate(25deg);
+}
+
+#map{
+    height: 500px;
+}
+
+.form_custom{
+    padding-bottom: 5%;
+}
+
+.form-control{
+    border-width: 2px;
+    background: transparent;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.form-control:focus{
+    background: transparent;
+    border:2px solid rgba(30, 140, 53, 0.93);
+}
+
+
+.cont{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cont h4,.cont h5{
+    max-width: 300px;
+    text-align: center;
+    margin:15px 0 15px 0;
+}
+
+
+
+/*jquery ui*/
+
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+    /*background: rgba(30, 140, 53, 0.93)!important;*/
+    background: transparent;
+}
+.ui-state-default,{
+    height: 50px;
+    border:none;
+    background: transparent;
+}
+
+
+#accordion h4{
+    text-align: center;
+}
+
+#accordion h4:hover,#accordion h4:focus{
+    height: 50px;
+    border:none;
+    background: transparent;
+     outline: none;
+}
+.ui-accordion-header, .ui-corner-top ,.ui-state-default,.ui-accordion-icons,.ui-accordion-header-collapsed,.ui-corner-all{
+     border:none!important;
+    background: transparent!important; 
+    
+}
+
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited{
+    color: rgba(30, 140, 53, 0.93)!important;;  
+}
+
+#accordion div{
+    background: transparent;
+    border:none;
+}
+
+#accordion div a{
+    text-align: center;
+}
